@@ -11,7 +11,7 @@ spec:
     path: 07-Service
     repoURL: 'https://github.com/amitvashisttech/argo-cd-dev.git'
     targetRevision: HEAD
-  project: argo-ci-cd
+  project: default
   syncPolicy:
     automated:
       prune: true
